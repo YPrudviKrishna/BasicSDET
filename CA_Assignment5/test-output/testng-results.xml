@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-18T01:55:06 IST" name="AutomationAnyWhereWebSiteSuite" finished-at="2025-09-18T01:55:51 IST" duration-ms="45631">
+    <groups>
+    </groups>
+    <test started-at="2025-09-18T01:55:06 IST" name="ProductDiscoveryPageTest" finished-at="2025-09-18T01:55:37 IST" duration-ms="31033">
+      <class name="AutomationAnyWhereURL.ProductDiscoveryPageTest">
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:AutomationAnyWhereURL.ProductDiscoveryPageTest@4e3958e7]" started-at="2025-09-18T01:55:06 IST" name="launchHomepage" finished-at="2025-09-18T01:55:15 IST" duration-ms="8927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="productDiscoveryPageTitleTest()[pri:0, instance:AutomationAnyWhereURL.ProductDiscoveryPageTest@4e3958e7]" started-at="2025-09-18T01:55:15 IST" name="productDiscoveryPageTitleTest" finished-at="2025-09-18T01:55:37 IST" duration-ms="21964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDiscoveryPageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationAnyWhereURL.ProductDiscoveryPageTest@4e3958e7]" started-at="2025-09-18T01:55:37 IST" name="teardown" finished-at="2025-09-18T01:55:37 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationAnyWhereURL.ProductDiscoveryPageTest -->
+    </test> <!-- ProductDiscoveryPageTest -->
+    <test started-at="2025-09-18T01:55:37 IST" name="RequestDemoPageTest" finished-at="2025-09-18T01:55:51 IST" duration-ms="14552">
+      <class name="AutomationAnyWhereURL.RequestDemoPageTest">
+        <test-method is-config="true" signature="launchHomepage()[pri:0, instance:AutomationAnyWhereURL.RequestDemoPageTest@11c9af63]" started-at="2025-09-18T01:55:37 IST" name="launchHomepage" finished-at="2025-09-18T01:55:44 IST" duration-ms="7039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomepage -->
+        <test-method signature="requestdemoPageLabelsTest()[pri:0, instance:AutomationAnyWhereURL.RequestDemoPageTest@11c9af63]" started-at="2025-09-18T01:55:44 IST" name="requestdemoPageLabelsTest" finished-at="2025-09-18T01:55:51 IST" duration-ms="7406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestdemoPageLabelsTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationAnyWhereURL.RequestDemoPageTest@11c9af63]" started-at="2025-09-18T01:55:51 IST" name="teardown" finished-at="2025-09-18T01:55:51 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationAnyWhereURL.RequestDemoPageTest -->
+    </test> <!-- RequestDemoPageTest -->
+  </suite> <!-- AutomationAnyWhereWebSiteSuite -->
+</testng-results>
