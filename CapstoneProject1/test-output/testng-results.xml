@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-26T03:44:16 IST" name="FlipkartTestSuite" finished-at="2025-09-26T03:44:47 IST" duration-ms="30773">
+    <groups>
+    </groups>
+    <test started-at="2025-09-26T03:44:16 IST" name="FlipkartTest" finished-at="2025-09-26T03:44:47 IST" duration-ms="30773">
+      <class name="SeleniumTestNG.tests.FlipkartTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:SeleniumTestNG.tests.FlipkartTest@1c1bbc4e]" started-at="2025-09-26T03:44:11 IST" name="setUpSuite" finished-at="2025-09-26T03:44:16 IST" duration-ms="5331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method signature="CloseLoginPopup()[pri:0, instance:SeleniumTestNG.tests.FlipkartTest@1c1bbc4e]" started-at="2025-09-26T03:44:16 IST" name="CloseLoginPopup" finished-at="2025-09-26T03:44:16 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseLoginPopup -->
+        <test-method signature="verifyFlipkartLogo()[pri:0, instance:SeleniumTestNG.tests.FlipkartTest@1c1bbc4e]" started-at="2025-09-26T03:44:16 IST" name="verifyFlipkartLogo" finished-at="2025-09-26T03:44:16 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlipkartLogo -->
+        <test-method signature="searchItem()[pri:0, instance:SeleniumTestNG.tests.FlipkartTest@1c1bbc4e]" started-at="2025-09-26T03:44:16 IST" name="searchItem" finished-at="2025-09-26T03:44:21 IST" duration-ms="4735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method signature="ClickFirstItem()[pri:0, instance:SeleniumTestNG.tests.FlipkartTest@1c1bbc4e]" started-at="2025-09-26T03:44:21 IST" name="ClickFirstItem" finished-at="2025-09-26T03:44:21 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickFirstItem -->
+        <test-method signature="AddToCart()[pri:0, instance:SeleniumTestNG.tests.FlipkartTest@1c1bbc4e]" started-at="2025-09-26T03:44:21 IST" name="AddToCart" finished-at="2025-09-26T03:44:47 IST" duration-ms="25590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method signature="VerifyItemAddedtoCart()[pri:0, instance:SeleniumTestNG.tests.FlipkartTest@1c1bbc4e]" started-at="2025-09-26T03:44:47 IST" name="VerifyItemAddedtoCart" finished-at="2025-09-26T03:44:47 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyItemAddedtoCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNG.tests.FlipkartTest@1c1bbc4e]" started-at="2025-09-26T03:44:47 IST" name="tearDown" finished-at="2025-09-26T03:44:47 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumTestNG.tests.FlipkartTest -->
+    </test> <!-- FlipkartTest -->
+  </suite> <!-- FlipkartTestSuite -->
+</testng-results>

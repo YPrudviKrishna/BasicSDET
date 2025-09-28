@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 30.57 s <<< FAILURE! - in TestSuite
+searchItem(SeleniumTestNG.tests.FlipkartTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "SeleniumTestNG.Pages.HomePage.searchForItem(String)" because "this.homePage" is null
+	at SeleniumTestNG.tests.FlipkartTest.searchItem(FlipkartTest.java:33)
+
+ClickFirstItem(SeleniumTestNG.tests.FlipkartTest)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.firstElement" is null
+	at SeleniumTestNG.tests.FlipkartTest.ClickFirstItem(FlipkartTest.java:45)
+
+AddToCart(SeleniumTestNG.tests.FlipkartTest)  Time elapsed: 6.046 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Add to cart')]"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-OHO73S1', ip: '192.168.1.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a47c2dc36470ee1b914ce95c214c8978, findElement {using=xpath, value=//button[contains(text(),'Add to cart')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63579}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63579/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a47c2dc36470ee1b914ce95c214c8978
+	at SeleniumTestNG.tests.FlipkartTest.AddToCart(FlipkartTest.java:61)
+
+VerifyItemAddedtoCart(SeleniumTestNG.tests.FlipkartTest)  Time elapsed: 20.015 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@class, 'T2CNXf QqLTQ-')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-OHO73S1', ip: '192.168.1.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63579}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63579/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a47c2dc36470ee1b914ce95c214c8978
+	at SeleniumTestNG.tests.FlipkartTest.VerifyItemAddedtoCart(FlipkartTest.java:70)
+

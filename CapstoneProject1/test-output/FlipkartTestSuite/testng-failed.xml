@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlipkartTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FlipkartTest(failed)">
+    <classes>
+      <class name="SeleniumTestNG.tests.FlipkartTest">
+        <methods>
+          <include name="verifyFlipkartShoppingFlow"/>
+          <include name="setUpSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SeleniumTestNG.tests.FlipkartTest -->
+    </classes>
+  </test> <!-- FlipkartTest(failed) -->
+</suite> <!-- Failed suite [FlipkartTestSuite] -->

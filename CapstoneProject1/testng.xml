@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FlipkartTestSuite">
+  <test thread-count="5" name="FlipkartTest">
+    <classes>      
+      <class name="SeleniumTestNG.tests.FlipkartTest">
+        <methods>
+           <include name ="CloseLoginPopup"/>
+           <include name ="verifyFlipkartLogo"/>
+           <include name ="searchItem"/>
+           <include name ="ClickFirstItem"/>
+           <include name ="AddToCart"/>
+           <include name ="VerifyItemAddedtoCart"/>
+        </methods>
+        </class>     
+      
+    </classes>
+  </test> 
+</suite> 
